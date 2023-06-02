@@ -20,7 +20,7 @@ npm run build:prod
 ### git钩子
 ```
 package.json中gitHooks配置，目前已有pre-commit与commit-msg
-如果失效，需要手动执行命令node node_modules/yorkie/bin/install.js，重新生成.git目录中的.git/hoos
+如果失效，需要手动执行命令node node_modules/yorkie/bin/install.js，重新生成.git目录中的.git/hooks
 ```
 
 ### 代码格式化与校验
