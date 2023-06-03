@@ -14,4 +14,10 @@ module.exports = {
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
     "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
   },
-};
+}
+// module.exports = {
+//   "*.{js,jsx,vue}": [
+//     "vue-cli-service lint",
+//     // "git add"
+//   ]
+// };
